@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sikian@gmail.com"]
   spec.description   = %q{A simple gem to allow symbols with fix id throughout different instances.}
   spec.summary       = %q{A simple gem to allow symbols with fix id throughout different instances.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/Sikian/fix_symbol"
   spec.license       = "GPL-3.0"
 
   spec.files         = `git ls-files`.split($/)

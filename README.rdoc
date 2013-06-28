@@ -11,8 +11,8 @@ it to be useful to anybody that needs/likes the idea.
 == Usage
 
  class MyFixSymbol < FixSymbol::Base
-	@@use = :yml
-	@@file = File.dirname(__FILE__) + '/tokens.yml'
+ 	@@use = :yml
+ 	@@file = File.dirname(__FILE__) + '/tokens.yml'
  end
 
 At the moment, only yml importation is available. Therefore @@use = :yml is kind of redundant and will be taken care of in the following version. Furthermore, as compatibility with more data structures will be developed, it will be a great idea to inherit from FixSymbol::Yml (which will inherit from ::Base).
