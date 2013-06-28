@@ -1,0 +1,20 @@
+--- # Tokens
+
+# Job status
+- new
+- queued
+- sending
+- processing
+- receiving
+
+# Instance status
+
+# Errors
+
+# Job Errors
+
+# Instance Errors
+
+# Server Errors
+
+---
