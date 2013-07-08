@@ -102,7 +102,11 @@ module FixSymbol
 			if @@use == :yml
 				if File.exists? @@file
 					data = YAML.load_file(@@file)
-					token = data[id].to_sym unless data == nil
+					begin
+						token = data[id].to_sym unless data == nil
+					rescue
+						raise 'Token not found.'
+					end
 				else
 					raise 'No file found.'
 				end
